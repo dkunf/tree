@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+.main,
+.branch,
+.leaf {
+  text-align: center;
+}
+
+.leaf {
+  display: inline-block;
+}
+.main {
+  display: block;
+  margin-bottom: 3ch;
+}
+.branch {
+  display: inline-block;
+}
+//  #E2CBE1, #E1EEF7, #FBF4BD, #FAE7E8, #F7CCDF
+.border {
+  padding: 1ch;
+  border: 3px solid #f7ccdf;
+  margin: 1ch;
+  background-color: #e2cbe1;
+}
+svg {
+  z-index: -5;
+}
+.main-title {
+  background-color: #e1eef7;
+}
+.branch-title {
+  background-color: #fbf4bd;
+}
+.leaf-title {
+  background-color: #fae7e8;
+}
